@@ -23,13 +23,12 @@
 
 ## 🚀 Interactive & Enhanced Graphics
 
-### 🔹 **GitHub Profile Summary Cards (novo estilo de gráfico)**
+### 🔹 GitHub Profile Summary Cards
 <details>
 <summary><b>Click to expand</b></summary>
 <br>
 
 <p align="center">
-  <!-- Summary Cards (Tokyo Night theme) -->
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=luisCristofolli&theme=tokyonight" width="850" />
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=luisCristofolli&theme=tokyonight" width="400" />
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=luisCristofolli&theme=tokyonight" width="400" />
@@ -41,12 +40,12 @@
 
 ---
 
-### 🐍 **Snake Animation (mais interativo ainda)**  
+### 🐍 Snake Animation (interativo)
 <p align="center">
-  <img src="https://raw.githubusercontent.com/luisCristofolli/luisCristofolli/output/github-contribution-grid-snake-dark.svg" width="900" />
+  <img src="output/github-contribution-grid-snake-dark.svg" width="900" />
 </p>
 
-> Se quiser, te ajudo a instalar a *snake automation* no seu GitHub Actions para gerar isso automaticamente.
+> 
 
 ---
 
