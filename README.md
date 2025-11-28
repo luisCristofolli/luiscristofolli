@@ -39,7 +39,7 @@ Main focus: **Python, Data & AI**. Exploring **Go**, **Rust** and **Cybersecurit
 
 **Python (current progress)**  
 <p align="center">
-  <!-- Progress badge for Python: 20% (adjustable) -->
+  <!-- Progress badge for Python: 2082 (adjustable) -->
   <img src="https://img.shields.io/badge/Python-82%25-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python progress" />
 </p>
 
@@ -49,7 +49,7 @@ Main focus: **Python, Data & AI**. Exploring **Go**, **Rust** and **Cybersecurit
   <img src="https://img.shields.io/badge/Rust-0%25-DEA584?style=for-the-badge&logo=rust&logoColor=black" alt="Rust progress" />
 </p>
 
-> Note: Python progress set to **20%** based on your current learning stage (you installed tools, created your first program and solved two exercises). I set the other languages to `0%` as you requested.
+
 
 ---
 
