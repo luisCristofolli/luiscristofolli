@@ -1,0 +1,36 @@
+name: GitHub Contribution Snake
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+  push:
+    branches:
+      - master
+
+jobs:
+  generate-snake:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+    - name: Install snake-generator
+      run: npm install -g github-contribution-grid-snake
+    - name: Generate contribution snake
+      run: |
+        mkdir -p output
+        github-contribution-grid-snake \
+          --username luisCristofolli \
+          --output ./output/github-contribution-grid-snake-dark.svg \
+          --theme dark
+    - name: Commit and push
+      run: |
+        git config --global user.name "Luis Cristofolli"
+        git config --global user.email "lcristofolli.cwb@hotmail.com"
+        git add output/github-contribution-grid-snake-dark.svg
+        git commit -m "Update GitHub contribution snake"
+        git push origin master
